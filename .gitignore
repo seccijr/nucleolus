@@ -1,0 +1,10 @@
+cmake-*/
+cmake-*/*
+build*/
+build*/*
+.vs/
+.vs/*
+.vscode/
+.vscode/*
+.idea/
+.idea/*
