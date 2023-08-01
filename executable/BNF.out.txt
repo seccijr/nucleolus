@@ -1,0 +1,92 @@
+Reading the input...done!
+Loading game...done!
+Running BNF...
+
+   ---===   ITERATION 1   ===---   
+
+Starting point:
+3
+3
+3
+Epsilon: 1
+
+  --==  solving subroutine LP  ==--  
+
+subroutine feasibility: 0
+
+  --==  subroutine finished  ==--  
+
+
+  --==  u boolead ==--  1
+
+T:
+U:
+3
+5
+T0:
+U0:
+
+  --==  solving improving direction LP  ==--  
+
+
+  --==  improving direction obtained  ==--  
+
+Improving direction:
+2    -1    -1    
+
+  --==  computing step size  ==--  
+
+Step size: 1
+
+  --==  step size obtained  ==--  
+
+New point: 
+5
+2
+2
+
+   ---===   settled 0   ===---   
+
+Epsilon: 2
+
+  --==  solving subroutine LP  ==--  
+
+subroutine feasibility: 1
+lambda_3 > 0, rank = 2 (4 settled as well)
+lambda_4 > 0, got settled (with 3) without rank increase
+
+  --==  solving subroutine LP again  ==--  
+
+
+subroutine feasibility: 1
+lambda_2 > 0, rank = 3 (5 settled as well)
+Rank condition satisfied!
+
+  --==  subroutine finished  ==--  
+
+
+  --==  u boolead ==--  0
+
+T:
+2
+3
+4
+U:
+5
+T0:
+U0:
+
+  --==  minimal tight set found!  ==--  
+
+BNF finished!
+The nucleolus solution:
+5
+2
+2
+Time needed: 0.006 seconds
+Iterations needed: 1
+Pivots needed: 1
+Subroutine solves needed: 3
+5.00000000000000000
+2.00000000000000000
+2.00000000000000000
