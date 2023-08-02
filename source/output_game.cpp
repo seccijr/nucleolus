@@ -40,8 +40,8 @@ int main()
 	cout << "done!" << endl;
 	ofstream res;
 	res.open("v.txt", ofstream::out | ofstream::trunc);
-	for (unsigned int i = 0; i < s; i++)
-		res << fixed << setprecision(0) << v[i] << endl;
+	for (unsigned int i = 0; i < s + 1; i++)
+		res << v[i] << endl;
 	res.close();
 	return 0;
 }
