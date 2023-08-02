@@ -19,25 +19,25 @@ include_directories(${INCLUDE_DIRECTORIES})
 link_directories(${LIB_DIRECTORIES})
 
 set(
-        SECCI_SOURCE_FILES
+        GLPK_SOURCE_FILES
         source/gen_game.cpp
         source/gen_game.h
         source/common.cpp
         source/common.h
-        source/secci.cpp
-        source/secci.h
+        source/GLPK.cpp
+        source/GLPK.h
 )
 
-add_executable (secci ${SECCI_SOURCE_FILES})
+add_executable (GLPK ${GLPK_SOURCE_FILES})
 
 add_compile_definitions(WIN32 CONSOLE IL_STD)
 
-target_include_directories(secci INTERFACE ${INCLUDE_DIRECTORIES})
+target_include_directories(GLPK INTERFACE ${INCLUDE_DIRECTORIES})
 
-target_link_libraries(secci glpk)
+target_link_libraries(GLPK glpk)
 
 set_target_properties(
-  secci
+  GLPK
   PROPERTIES
   RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_SOURCE_DIR}/executable"
 )
