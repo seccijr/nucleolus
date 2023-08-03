@@ -200,7 +200,7 @@ set_target_properties(
 
 set(
         OUTPUT_GAME_SOURCE_FILES
-        source/output_game.cpp
+        source/OUTPUT_GAME.cpp
 )
 
 add_executable (OUTPUT_GAME ${COMMON_SOURCE_FILES} ${OUTPUT_GAME_SOURCE_FILES})

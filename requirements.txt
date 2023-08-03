@@ -1,0 +1,7 @@
+ipykernel
+matplotlib
+pandas
+scipy
+networkx
+multiprocess
+autopep8

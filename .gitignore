@@ -8,3 +8,5 @@ build*/*
 .vscode/*
 .idea/
 .idea/*
+.venv/
+.venv/*
